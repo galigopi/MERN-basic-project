@@ -6,8 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
+<<<<<<< HEAD
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
+=======
+    "heroku-postbuild": "cd .. && npm install && npm run build"
+>>>>>>> 1c50a47e94be030e9e8bbad972e4d6243eff11d1
   },
   "keywords": [],
   "author": "",
