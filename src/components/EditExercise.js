@@ -81,7 +81,7 @@ export default class EditExercise extends Component {
         axios.post("https://mern-basic-project-vpgd.onrender.com/exercises/update/" + this.props.match.params.id, exercise)
             .then(res => console.log(res.data))
 
-        window.location = "/";
+        window.location = "https://galigopi.github.io/MERN-basic-project/";
     }
 
 
