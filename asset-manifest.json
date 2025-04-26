@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/galigopi/static/css/main.531752c9.chunk.css",
+    "main.js": "/galigopi/static/js/main.d4aafb08.chunk.js",
+    "main.js.map": "/galigopi/static/js/main.d4aafb08.chunk.js.map",
+    "runtime-main.js": "/galigopi/static/js/runtime-main.ddc96dc6.js",
+    "runtime-main.js.map": "/galigopi/static/js/runtime-main.ddc96dc6.js.map",
+    "static/css/2.5b880db2.chunk.css": "/galigopi/static/css/2.5b880db2.chunk.css",
+    "static/js/2.e2b40091.chunk.js": "/galigopi/static/js/2.e2b40091.chunk.js",
+    "static/js/2.e2b40091.chunk.js.map": "/galigopi/static/js/2.e2b40091.chunk.js.map",
+    "static/js/3.2947acd3.chunk.js": "/galigopi/static/js/3.2947acd3.chunk.js",
+    "static/js/3.2947acd3.chunk.js.map": "/galigopi/static/js/3.2947acd3.chunk.js.map",
+    "index.html": "/galigopi/index.html",
+    "static/css/2.5b880db2.chunk.css.map": "/galigopi/static/css/2.5b880db2.chunk.css.map",
+    "static/css/main.531752c9.chunk.css.map": "/galigopi/static/css/main.531752c9.chunk.css.map",
+    "static/js/2.e2b40091.chunk.js.LICENSE.txt": "/galigopi/static/js/2.e2b40091.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ddc96dc6.js",
+    "static/css/2.5b880db2.chunk.css",
+    "static/js/2.e2b40091.chunk.js",
+    "static/css/main.531752c9.chunk.css",
+    "static/js/main.d4aafb08.chunk.js"
+  ]
+}
