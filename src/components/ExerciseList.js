@@ -26,7 +26,7 @@ export default class ExerciseList extends Component {
 
 
     componentDidMount() {
-        axios.get("http://localhost:5000/exercises/")
+        axios.get("https://mern-basic-project-vpgd.onrender.com/exercises/")
             .then(response => {
                 this.setState({ exercises: response.data })
             })
