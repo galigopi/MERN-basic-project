@@ -12,7 +12,7 @@ function App() {
     <Router>
       <div className="container">
         <Navbar />
-        <Route path="/" exact component={ExerciseList} />
+        <Route path="https://galigopi.github.io/MERN-basic-project/" exact component={ExerciseList} />
         <Route path="/edit/:id"  component={EditExercise} />
         <Route path="/create"  component={CreateExercise} />
         <Route path="/user"  component={CreateUser} />
