@@ -36,7 +36,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://galigopi.github.io/galigopi",
+  "homepage": "https://galigopi.github.io/exerciseapp",
   "eslintConfig": {
     "extends": [
       "react-app",
