@@ -34,7 +34,7 @@ export default class ExerciseList extends Component {
     }
 
     deleteExercise(id) {
-        axios.delete("http://localhost:5000/exercises/" + id)
+        axios.delete("https://mern-basic-project-vpgd.onrender.com/exercises/" + id)
             .then(res => console.log(res.data));
         this.setState(this.state.exercises.filter(el => el._id !== id));
     }
