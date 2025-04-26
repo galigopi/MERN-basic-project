@@ -72,7 +72,7 @@ export default class CreateExercise extends Component {
         axios.post("https://mern-basic-project-vpgd.onrender.com/exercises/add", exercise)
             .then(res => console.log(res.data))
 
-        window.location = "/";
+        window.location = "https://galigopi.github.io/MERN-basic-project/";
     }
 
 
