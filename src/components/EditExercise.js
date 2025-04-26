@@ -24,7 +24,7 @@ export default class EditExercise extends Component {
     }
 
     componentDidMount() {
-        axios.get("http://localhost:5000/exercises/" + this.props.match.params.id)
+        axios.get("https://mern-basic-project-vpgd.onrender.com/exercises/" + this.props.match.params.id)
             .then(res => {
                 this.setState({
                     username: res.data.username,
@@ -34,7 +34,7 @@ export default class EditExercise extends Component {
                 })
             })
 
-        axios.get("http://localhost:5000/users")
+        axios.get("https://mern-basic-project-vpgd.onrender.com/users")
             .then(res => {
                 if (res.data.length > 0) {
                     this.setState({
