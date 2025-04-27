@@ -85,7 +85,7 @@ export default class EditExercise extends Component {
     })
     .then(res => {
         console.log(res.data);
-        window.location = "/";
+        window.location = "/exercises";
     })
     .catch(err => {
         console.error('Update failed', err);
