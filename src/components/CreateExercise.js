@@ -69,7 +69,11 @@ export default class CreateExercise extends Component {
             date: this.state.date
         }
 
-        axios.post("https://mern-basic-project-vpgd.onrender.com/exercises/add", exercise)
+        axios.post("https://mern-basic-project-vpgd.onrender.com/exercises/add", exercise,{
+    headers: {
+        'Content-Type': 'application/json'
+    }
+        })
             .then(res => console.log(res.data))
 
         window.location = "https://galigopi.github.io/MERN-basic-project/";
