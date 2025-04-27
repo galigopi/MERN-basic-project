@@ -69,22 +69,28 @@ export default class EditExercise extends Component {
     }
 
     onSubmit(e) {
-        e.preventDefault();
+    e.preventDefault();
 
-        const exercise = {
-            username: this.state.username,
-            description: this.state.description,
-            duration: this.state.duration,
-            date: this.state.date
-        }
-
-        axios.put("https://mern-basic-project-vpgd.onrender.com/exercises/update/" + this.props.match.params.id, exercise,{
-    headers: {
-        'Content-Type': 'application/json'
+    const exercise = {
+        username: this.state.username,
+        description: this.state.description,
+        duration: this.state.duration,
+        date: this.state.date
     }
-        })
-            .then(res => window.location = "https://galigopi.github.io/MERN-basic-project/")
 
+    axios.put("https://mern-basic-project-vpgd.onrender.com/exercises/update/" + this.props.match.params.id, exercise, {
+        headers: {
+            'Content-Type': 'application/json'
+        }
+    })
+    .then(res => {
+        console.log(res.data);
+        window.location = "https://galigopi.github.io/MERN-basic-project/";
+    })
+    .catch(err => {
+        console.error('Update failed', err);
+    });
+    
         //window.location = "https://galigopi.github.io/MERN-basic-project/";
     }
 
