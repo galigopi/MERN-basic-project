@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import axios from 'axios';
-
+import API_URL from '../config';
 export default class EditExercise extends Component {
     constructor(props) {
         super(props);
@@ -24,7 +24,7 @@ export default class EditExercise extends Component {
     }
 
     componentDidMount() {
-        axios.get("https://mern-basic-project-vpgd.onrender.com/exercises/" + this.props.match.params.id)
+        axios.get(`${API_URL}/exercises/` + this.props.match.params.id)
             .then(res => {
                 this.setState({
                     username: res.data.username,
@@ -34,7 +34,7 @@ export default class EditExercise extends Component {
                 })
             })
 
-        axios.get("https://mern-basic-project-vpgd.onrender.com/users")
+        axios.get(`${API_URL}/users`)
             .then(res => {
                 if (res.data.length > 0) {
                     this.setState({
@@ -78,14 +78,14 @@ export default class EditExercise extends Component {
         date: this.state.date
     }
 
-    axios.put("https://mern-basic-project-vpgd.onrender.com/exercises/update/" + this.props.match.params.id, exercise, {
+    axios.put(`${API_URL}/exercises/update/` + this.props.match.params.id, exercise, {
         headers: {
             'Content-Type': 'application/json'
         }
     })
     .then(res => {
         console.log(res.data);
-        window.location = "https://galigopi.github.io/MERN-basic-project/";
+        window.location = "/";
     })
     .catch(err => {
         console.error('Update failed', err);

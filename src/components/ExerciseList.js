@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import { Link } from "react-router-dom";
-
+import API_URL from '../config';
 
 const Exercise = props => (
     <tr>
@@ -26,7 +26,7 @@ export default class ExerciseList extends Component {
 
 
     componentDidMount() {
-        axios.get("https://mern-basic-project-vpgd.onrender.com/exercises/")
+        axios.get(`${API_URL}/exercises/`)
             .then(response => {
                 this.setState({ exercises: response.data })
             })
@@ -34,7 +34,7 @@ export default class ExerciseList extends Component {
     }
 
     deleteExercise(id) {
-        axios.delete("https://mern-basic-project-vpgd.onrender.com/exercises/" + id)
+        axios.delete(`${API_URL}/exercises/` + id)
             .then(res => console.log(res.data));
         this.setState(this.state.exercises.filter(el => el._id !== id));
     }

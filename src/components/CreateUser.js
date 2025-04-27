@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import API_URL from '../config';
 
 export default class CreateUser extends Component {
     constructor(props) {
@@ -31,7 +32,7 @@ export default class CreateUser extends Component {
 
         // window.location = "/";
         console.log(user);
-        axios.post("https://mern-basic-project-vpgd.onrender.com/users/add", user, {
+        axios.post(`${API_URL}/users/add`, user, {
     headers: {
         'Content-Type': 'application/json'
     }

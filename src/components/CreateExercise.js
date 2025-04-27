@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import axios from 'axios';
+import API_URL from '../config'; 
 
 export default class CreateExercise extends Component {
     constructor(props) {
@@ -24,7 +25,7 @@ export default class CreateExercise extends Component {
     }
 
     componentDidMount() {
-        axios.get("https://mern-basic-project-vpgd.onrender.com/users")
+        axios.get(`${API_URL}/users`)
             .then(res => {
                 if (res.data.length > 0) {
                     this.setState({
@@ -69,14 +70,14 @@ export default class CreateExercise extends Component {
             date: this.state.date
         }
 
-        axios.post("https://mern-basic-project-vpgd.onrender.com/exercises/add", exercise,{
+        axios.post(`${API_URL}/exercises/add`, exercise,{
     headers: {
         'Content-Type': 'application/json'
     }
         })
             .then(res => console.log(res.data))
 
-        window.location = "https://galigopi.github.io/MERN-basic-project/";
+        window.location = "/";
     }
 
 
