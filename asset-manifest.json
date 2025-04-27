@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/MERN-basic-project/static/css/main.531752c9.chunk.css",
-    "main.js": "/MERN-basic-project/static/js/main.49fa4e91.chunk.js",
-    "main.js.map": "/MERN-basic-project/static/js/main.49fa4e91.chunk.js.map",
-    "runtime-main.js": "/MERN-basic-project/static/js/runtime-main.e8468eb3.js",
-    "runtime-main.js.map": "/MERN-basic-project/static/js/runtime-main.e8468eb3.js.map",
-    "static/css/2.5b880db2.chunk.css": "/MERN-basic-project/static/css/2.5b880db2.chunk.css",
-    "static/js/2.33720e88.chunk.js": "/MERN-basic-project/static/js/2.33720e88.chunk.js",
-    "static/js/2.33720e88.chunk.js.map": "/MERN-basic-project/static/js/2.33720e88.chunk.js.map",
-    "static/js/3.2947acd3.chunk.js": "/MERN-basic-project/static/js/3.2947acd3.chunk.js",
-    "static/js/3.2947acd3.chunk.js.map": "/MERN-basic-project/static/js/3.2947acd3.chunk.js.map",
-    "index.html": "/MERN-basic-project/index.html",
-    "static/css/2.5b880db2.chunk.css.map": "/MERN-basic-project/static/css/2.5b880db2.chunk.css.map",
-    "static/css/main.531752c9.chunk.css.map": "/MERN-basic-project/static/css/main.531752c9.chunk.css.map",
-    "static/js/2.33720e88.chunk.js.LICENSE.txt": "/MERN-basic-project/static/js/2.33720e88.chunk.js.LICENSE.txt"
+    "main.css": "/MERN-basic-project/exercises/static/css/main.531752c9.chunk.css",
+    "main.js": "/MERN-basic-project/exercises/static/js/main.c483694c.chunk.js",
+    "main.js.map": "/MERN-basic-project/exercises/static/js/main.c483694c.chunk.js.map",
+    "runtime-main.js": "/MERN-basic-project/exercises/static/js/runtime-main.3a651367.js",
+    "runtime-main.js.map": "/MERN-basic-project/exercises/static/js/runtime-main.3a651367.js.map",
+    "static/css/2.5b880db2.chunk.css": "/MERN-basic-project/exercises/static/css/2.5b880db2.chunk.css",
+    "static/js/2.33720e88.chunk.js": "/MERN-basic-project/exercises/static/js/2.33720e88.chunk.js",
+    "static/js/2.33720e88.chunk.js.map": "/MERN-basic-project/exercises/static/js/2.33720e88.chunk.js.map",
+    "static/js/3.2947acd3.chunk.js": "/MERN-basic-project/exercises/static/js/3.2947acd3.chunk.js",
+    "static/js/3.2947acd3.chunk.js.map": "/MERN-basic-project/exercises/static/js/3.2947acd3.chunk.js.map",
+    "index.html": "/MERN-basic-project/exercises/index.html",
+    "static/css/2.5b880db2.chunk.css.map": "/MERN-basic-project/exercises/static/css/2.5b880db2.chunk.css.map",
+    "static/css/main.531752c9.chunk.css.map": "/MERN-basic-project/exercises/static/css/main.531752c9.chunk.css.map",
+    "static/js/2.33720e88.chunk.js.LICENSE.txt": "/MERN-basic-project/exercises/static/js/2.33720e88.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.e8468eb3.js",
+    "static/js/runtime-main.3a651367.js",
     "static/css/2.5b880db2.chunk.css",
     "static/js/2.33720e88.chunk.js",
     "static/css/main.531752c9.chunk.css",
-    "static/js/main.49fa4e91.chunk.js"
+    "static/js/main.c483694c.chunk.js"
   ]
 }
