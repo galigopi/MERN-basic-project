@@ -1,4 +1,3 @@
 
-const API_URL = "https://mern-basic-project-vpgd.onrender.com";
-
+const API_URL = process.env.REACT_APP_API_URL;
 export default API_URL;
