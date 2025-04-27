@@ -31,8 +31,13 @@ export default class CreateUser extends Component {
 
         // window.location = "/";
         console.log(user);
-        axios.post("https://mern-basic-project-vpgd.onrender.com/users/add", user)
-            .then(res => console.log(res.data))
+        axios.post("https://mern-basic-project-vpgd.onrender.com/users/add", user, {
+    headers: {
+        'Content-Type': 'application/json'
+    }
+})
+.then(res => console.log(res.data))
+.catch(err => console.error(err));
         this.setState({
             username: ''
         })
