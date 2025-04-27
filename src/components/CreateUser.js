@@ -37,7 +37,7 @@ export default class CreateUser extends Component {
       })
       .then(
         (res) => console.log(res.data),
-        (window.location = "/create")
+        // (window.location = "/")
       )
       .catch((err) => console.error(err));
     this.setState({
