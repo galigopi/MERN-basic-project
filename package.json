@@ -36,7 +36,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://galigopi.github.io/",
+  "homepage": "https://galigopi.github.io/MERN-basic-project/",
   "eslintConfig": {
     "extends": [
       "react-app",
